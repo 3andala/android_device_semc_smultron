@@ -16,9 +16,10 @@
 $(call inherit-product, device/semc/smultron/full_smultron.mk)
 
 # Device identifier. This must come after all inclusions
+PRODUCT_RELEASE_NAME := smultron
+PRODUCT_DEVICE := smultron
 PRODUCT_NAME := nameless_smultron
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
-PRODUCT_RELEASE_NAME := smultron
 PRODUCT_BRAND := semc
 PRODUCT_MODEL := Xperia Mini
 PRODUCT_MANUFACTURER := SEMC
